@@ -22,13 +22,21 @@ nav {
 
 nav ol li{
 	display: inline;
-	padding: 8px;
+	padding: 0px;
+	margin: 0px;
 	font-family: Verdana, sans-serif;
 
 }
 
 nav ol li a{
 	color: white;
+	padding-top: 17px;
+	padding-bottom: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 0;
+	margin-left: 0;
+	text-decoration: none;
 }
 
 
@@ -46,6 +54,13 @@ nav ol li a{
 
 a:hover {
 	color: #0DACEE;
+}
+
+nav ol li a:hover{
+	color: #00117D;
+	background-color: #E0E0E0;
+	text-decoration: underline;
+	
 }
 
 ul {
