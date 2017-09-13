@@ -77,14 +77,14 @@ h1 {
 
 
 /*NAV STYLES*/
-nav {
+#nav {
 	background-color: #363636;
 	padding-top: 17px;
 	padding-bottom: 17px;
 	text-align: center;
 }
 
-nav ol li{
+#nav ol li{
 	display: inline;
 	padding: 0px;
 	margin: 0px;
@@ -92,7 +92,7 @@ nav ol li{
 
 }
 
-nav ol li a{
+#nav ol li a{
 	color: white;
 	padding-top: 17px;
 	padding-bottom: 18px;
@@ -103,7 +103,7 @@ nav ol li a{
 	text-decoration: none;
 }
 
-nav ol li a:hover{
+#nav ol li a:hover{
 	background-color: #45AAFF;
 	text-decoration: underline;
 }
@@ -129,10 +129,8 @@ nav ol li a:hover{
 #banner-image h2{
 	top: 15%;
 	left: 5%;
-	font-size: auto;
 	position: absolute;
 	font-family: bebas;
-	font-size: auto;
 	color: white; 
 	font-weight: 100;
 }
@@ -171,5 +169,4 @@ nav ol li a:hover{
 		text-decoration: underline;
 	}
 }
-
 
