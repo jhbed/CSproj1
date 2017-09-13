@@ -45,6 +45,11 @@ h1 {
 
 }
 
+.content img {
+	width: 400px;
+	height: auto;
+}
+
 .right-image, .left-image{
 	padding-top: 28px;
 	padding-left: 20px;
@@ -157,13 +162,13 @@ h1 {
     #banner-image h2{
     	font-size: 50%;
     }
-	nav a{
+	#nav a{
 		font-size: 80%;
 		padding: 0px;
 		margin: 0px;
 	}
 
-	nav ol li a:hover{
+	#nav ol li a:hover{
 		background: none;
 		color: white;
 		text-decoration: underline;
