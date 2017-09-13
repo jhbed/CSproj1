@@ -4,8 +4,8 @@ body {
 }
 
 main {
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 header h1 {
@@ -32,8 +32,8 @@ nav ol li a{
 }
 
 
-#section1 {
-	text-align: center;
+#section1{
+	background-color: #45AAFF;
 }
 
 #ulCategories li, #ulCategories h1{
@@ -56,5 +56,6 @@ ul {
 	margin: auto;
 	width: 80%;
 }
+
 
 
