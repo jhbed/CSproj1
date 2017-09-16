@@ -16,11 +16,19 @@ h1 {
 
 #logo {
 	font-family: bebas;
-	
+	color: #363636;
 	font-size: 400%;
 	padding: 5px;
 	margin: 0px;
 	text-align: center;
+	text-decoration: none;
+	min-width: 480px;
+}
+
+#logo a {
+	font-style: none;
+	text-decoration: none;
+	color: #363636;
 }
 
 
@@ -87,6 +95,7 @@ h1 {
 	padding-top: 17px;
 	padding-bottom: 17px;
 	text-align: center;
+	min-width: 550px;
 }
 
 #nav ol li{
@@ -154,12 +163,14 @@ h1 {
 /*SMALLER SCREEN ADJUSTMENTS*/
 @media screen and (max-width: 1100px) and (min-width: 750px)  {
     #banner-image h2{
+    	top: 10%;
     	font-size: 100%;
     }
 }
 
 @media screen and (max-width: 750px) {
     #banner-image h2{
+    	top: 10%;
     	font-size: 50%;
     }
 	#nav a{
