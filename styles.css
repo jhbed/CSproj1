@@ -32,25 +32,71 @@ h1 {
 	color: #363636;
 }
 
-table{
+.food {
 	padding-top: 30px;
 	margin-top: 30px;
 	width: 100%;
 }
-th{
+.food th{
 	font-family: bebas;
 	font-size: 150%;
 	font-weight: 100;
 
 }
-td{
+.food td{
 	color: white;
 	text-align: center;
 	font-family: bebas;
 	padding: 10px;
 	border-color: #FFFFFF;
 	border-style: solid;
-	margin: -10px;
+}
+
+.list-title{
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+.list-items li{
+	list-style: none;
+	text-align: center;
+}
+
+.list-items{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+table.neighborhoods{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+table.neighborhoods tr td img{
+	width: 90%;
+	
+}
+table.neighborhoods tr td{
+	text-align: center;
+	width: 20%;
+}
+
+.neighborhood-header{
+	font-family: bebas;
+	font-size: 150%;
+	font-weight: 100;
+	text-align: center;
+}
+
+td.neighborhoods-text{
+	
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 
@@ -61,11 +107,13 @@ td{
 
 .blue {
 	background-color: #45AAFF;
+	color: white;
 	
 }
 
 .grey{
 	background-color: #363636;
+	color: white;
 }
 
 .content{
@@ -190,7 +238,6 @@ td{
     	top: 10%;
     	font-size: 100%;
     }
-}
 
 @media screen and (max-width: 750px) {
     #banner-image h2{
@@ -208,5 +255,7 @@ td{
 		color: white;
 		text-decoration: underline;
 	}
+
+	
 }
 
